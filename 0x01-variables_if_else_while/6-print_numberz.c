@@ -5,14 +5,14 @@
  * Return: Always 0
  */
 
-int main(void);
+int main(void)
 {
 	int c;
 
 	c = 0;
 	while
 		(c < 10) {
-			putchar(c + '0');
+			putchar(c);
 			c++;
 		}
 	putchar('\n');
