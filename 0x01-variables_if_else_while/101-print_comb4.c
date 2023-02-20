@@ -20,7 +20,7 @@ int main(void)
 
 	for (q = p + 1; q <= '9'; q++)
 	{
-	if ((p != q) != q)
+	if ((p != d) != q)
 	{
 	putchar(d);
 	putchar(p);
